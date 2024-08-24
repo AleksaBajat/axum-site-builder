@@ -1,0 +1,6 @@
+services:
+  axum:
+    container_name: "axum"
+    build: .
+    ports:
+      - "3000:3000"

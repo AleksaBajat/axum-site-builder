@@ -1,8 +1,12 @@
 [package]
-name = "toza"
+name = "site_builder"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-tokio = { version="1", features = ["full"] }
+tokio = { version = "1.39.3", features = ["full"] }
 axum = "0.7.5"
+tower = "0.5.0"
+serde = "1.0.209"
+tera = "1.20.0"
+postgres = "0.19.8"
